@@ -1,0 +1,93 @@
+/* reset for these elements */
+html, body, p {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+    font-style: normal;
+    font-family: sans-serif;
+}
+
+table {
+    font-size: 1em;
+}
+
+img {
+    border: 0;
+}
+
+/* basic styles */
+html, body {
+    line-height: 1.0;
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.75em;
+    margin: 1em 0;
+}
+
+h2 {
+    font-size: 1.25em;
+    margin: 2em 0 1em 0;
+}
+
+/* etc... */
+/* monospace font-family list same as stackoverflow.com */
+pre {
+    font-size: 80%;
+    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+}
+
+/* anchor hover */
+a:hover {
+    background-color: #DDDDFF;
+}
+
+/* or underline or whatever you like */
+/* table styles */
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin: 1em;
+}
+
+td, th {
+    padding: 6px;
+    margin: 0px;
+}
+
+.bus_stop {
+    font-weight: bold;
+}
+
+.bus_stop table{
+    font-weight: normal;
+}
+
+/* main layout structure and styling: header, content, and footer */
+#header {
+    /* your header container styles */
+}
+
+#header ul {
+    list-style: none;
+    /* your menu styles */
+}
+
+#header li {
+    /* your menu item styles (such as display: inline) */
+}
+
+#content {
+    /* your content holder styles */
+}
+
+#footer {
+    /* your footer container styles */
+}
