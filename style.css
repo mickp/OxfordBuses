@@ -8,13 +8,6 @@ html, body, p {
     font-family: sans-serif;
 }
 
-table {
-    font-size: 1em;
-}
-
-img {
-    border: 0;
-}
 
 /* basic styles */
 html, body {
@@ -22,52 +15,33 @@ html, body {
     height: 100%;
 }
 
-h1, h2, h3, h4, h5, h6 {
+#buttons {width: 100%;
+          align: center;
+          }
+
+#buttons button {
+    background-color: limegreen; /* Green */
+    border: 4px outset lightgreen;
+    color: black;
+    font-size: large;
     font-weight: bold;
-    padding: 0;
-}
+    text-align: center;
+    vertical-align: top;
+    horizontal-align: center;
+    width: 33%;
+    max-width: 12em;
+    height: 7ex;
+    }
 
-h1 {
-    font-size: 1.75em;
-    margin: 1em 0;
-}
 
-h2 {
-    font-size: 1.25em;
-    margin: 2em 0 1em 0;
-}
+#buses table {margin-left: 1em;
+              margin-right: 1em;
+              }
 
-/* etc... */
-/* monospace font-family list same as stackoverflow.com */
-pre {
-    font-size: 80%;
-    font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
-}
-
-/* anchor hover */
-a:hover {
-    background-color: #DDDDFF;
-}
-
-/* or underline or whatever you like */
-/* table styles */
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-    margin: 1em;
-}
-
-td, th {
-    padding: 6px;
-    margin: 0px;
-}
-
-.bus_stop {
-    font-weight: bold;
-}
-
-.bus_stop table{
-    font-weight: normal;
+#buses td {border-bottom: 1px dashed green;
+           padding-top: 1em;
+           font-size: larger;
+           padding: 1ex;
 }
 
 /* main layout structure and styling: header, content, and footer */
